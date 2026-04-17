@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail | Abdiasiis Mohamed Ibrahim</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+        }
+
+        .accent-border {
+            border-left: 4px solid #f97316;
+        }
+
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #be185d;
+            font-family: monospace;
+        }
+    </style>
+
+    <link rel="icon" type="image/png" href="logo_blue.png">
+
+    <meta property="og:title" content="GentlmannInsightsPortfolio">
+    <meta property="og:description" content="GentlmannInsightsPortfolio - Transforming data into actionable insights.">
+    <meta property="og:image" content="https://yourusername.github.io/logo_blue.png">
+    <meta property="og:url" content="https://yourusername.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3 group">
+                <img src="logo_blue.png" alt="Gentleman Logo"
+                    class="h-10 w-auto transition-transform group-hover:scale-105">
+
+                <div class="text-2xl font-bold text-blue-900">
+                    GentlmannInsights<span class="text-orange-500">.</span>
+                </div>
+            </a>
+
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+                <a href="about.html" class="hover:text-blue-600 transition">About</a>
+                <a href="index.html#projects"
+                    class="text-blue-600 font-bold underline decoration-orange-500">Projects</a>
+                <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+            <a href="data_anlayrtis.pdf"
+                class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">Resume</a>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-20 gradient-bg text-white px-6">
+        <div class="max-w-5xl mx-auto">
+            <nav class="flex mb-8 text-blue-200 text-sm space-x-2">
+                <a href="index.html#projects" class="hover:text-white">Projects</a>
+                <span>/</span>
+                <span class="text-orange-400">marketing analaytics</span>
+            </nav>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Sales Performance & Profit Analysis</h1>
+            <p class="text-xl text-blue-100 max-w-3xl leading-relaxed">
+                An end-to-end analysis of sales and profit data uncovering growth opportunities through product
+                performance, category insights, and regional trends.
+            <div class="mt-10 flex flex-wrap gap-4">
+                <div
+                    class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 flex items-center">
+                    <i data-lucide="database" class="w-4 h-4 mr-2 text-orange-400"></i> SQL Server
+                </div>
+                <div
+                    class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 flex items-center">
+                    <i data-lucide="code-2" class="w-4 h-4 mr-2 text-orange-400"></i> Python (Pandas)
+                </div>
+                <div
+                    class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 flex items-center">
+                    <i data-lucide="layout-dashboard" class="w-4 h-4 mr-2 text-orange-400"></i> Power BI
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-16">
+
+        <section class="mb-20">
+            <div class="flex items-center mb-6">
+                <span class="bg-orange-100 text-orange-600 p-2 rounded-lg mr-4"><i data-lucide="help-circle"></i></span>
+                <h2 class="text-3xl font-bold">The Business Problem</h2>
+            </div>
+            <div class="accent-border pl-6 text-lg text-slate-600 space-y-4">
+                <p>Built an interactive dashboard to analyze sales performance, profit trends, and product/category
+                    performance to support business growth decisions.</p>
+                <p><strong>Goal:</strong> Identify exactly where revenue is leaking and provide three actionable
+                    recommendations to stabilize growth.</p>
+            </div>
+        </section>
+
+        <section class="mb-20 grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-6 flex items-center">
+                    <i data-lucide="wrench" class="mr-3 text-blue-600"></i> Methodology
+                </h3>
+                <ul class="space-y-4 text-slate-600">
+                    <li class="flex items-start">
+                        <i data-lucide="check" class="text-green-500 mr-3 mt-1"></i>
+                        get data from sql server using <code>Power bi</code>.
+                    </li>
+                    <ul class="space-y-4 text-slate-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="text-green-500 mr-3 mt-1"></i>
+                            Cleaned and prepared sales data using <code>Power Query</code>.
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="text-green-500 mr-3 mt-1"></i>
+                            Cleaned missing values and handled outliers in <code>Power Query</code>.
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="text-green-500 mr-3 mt-1"></i>
+                            Developed <code>DAX</code> measures for Year-to-Date (YTD) comparisons.
+                        </li>
+                    </ul>
+            </div>
+
+        </section>
+
+        <section class="mb-20">
+            <h3 class="text-2xl font-bold mb-8 text-center">Interactive Sales Intelligence Dashboard</h3>
+
+            <div class="bg-white p-4 rounded-3xl shadow-2xl border border-slate-200 overflow-hidden">
+                <img src="eccommer4 - Copy.png" alt="Your Power BI Dashboard"
+                    class="w-full rounded-2xl hover:scale-[1.02] transition duration-500 cursor-zoom-in">
+                <p class="mt-4 text-center text-sm text-slate-400 italic">Figure 1.0: Real-time revenue tracking and
+                    churn alert system developed in Power BI.</p>
+            </div>
+        </section>
+        <section class="mb-20">
+            <!-- <h3 class="text-2xl font-bold mb-8 text-center">Interactive Sales Intelligence Dashboard</h3> -->
+
+            <div class="bg-white p-4 rounded-3xl shadow-2xl border border-slate-200 overflow-hidden">
+                <img src="ecommer3back - Copy.png" alt="Your Power BI Dashboard"
+                    class="w-full rounded-2xl hover:scale-[1.02] transition duration-500 cursor-zoom-in">
+                <p class="mt-4 text-center text-sm text-slate-400 italic">Figure 1.0: Real-time revenue tracking and
+                    churn alert system developed in Power BI.</p>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <h3 class="text-3xl font-bold mb-10 text-center">Key Insights & Business Impact</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-8 rounded-2xl border-t-4 border-orange-500 shadow-sm text-center">
+                    <h4 class="text-4xl font-black text-blue-900 mb-2">$139M Sales</h4>
+                    <p class="font-bold text-slate-700 mb-2">Strong Revenue Performance</p>
+                    <p class="text-sm text-slate-500">The business generated high total sales across all categories.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border-t-4 border-blue-500 shadow-sm text-center">
+                    <h4 class="text-4xl font-black text-blue-900 mb-2">$69M Profit</h4>
+                    <p class="font-bold text-slate-700 mb-2">High Profitability</p>
+                    <p class="text-sm text-slate-500">Profit margins are strong, indicating efficient pricing and cost
+                        control.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border-t-4 border-green-500 shadow-sm text-center">
+                    <h4 class="text-4xl font-black text-blue-900 mb-2">Top Products</h4>
+                    <p class="font-bold text-slate-700 mb-2">Best-Selling Items/p>
+                    <p class="text-sm text-slate-500">Products like Laptop, Desk, and Charger drive the highest sales.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center py-12 border-y border-slate-200">
+            <h4 class="text-xl font-bold mb-6">Want to see the full code or dataset?</h4>
+            <div class="flex justify-center space-x-4">
+                <a href="#"
+                    class="flex items-center bg-slate-900 text-white px-6 py-3 rounded-xl hover:bg-slate-800 transition">
+                    <i data-lucide="github" class="mr-2"></i> GitHub Repository
+                </a>
+                <a href="ecommerce_50k_dataset.csv"
+                    class="flex items-center border-2 border-slate-200 px-6 py-3 rounded-xl hover:bg-slate-50 transition">
+                    <i data-lucide="download" class="mr-2"></i> Download Dataset
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-12 bg-blue-900 text-white px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="text-2xl font-bold mb-4">
+                GentlmannInsights<span class="text-orange-500">.</span>
+            </div>
+
+            <p class="text-blue-300 mb-8">Let's connect and build something data-driven.</p>
+
+            <div class="flex justify-center space-x-6 mb-8 text-blue-200">
+                <a href="https://www.linkedin.com/in/abdisiis-mohammed-531287309/"
+                    class="hover:text-white transition-colors" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect width="4" height="12" x="2" y="9" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+
+                <a href="https://github.com/Gentlmann" class="hover:text-white transition-colors" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                        <path d="M9 18c-4.51 2-5-2-7-2" />
+                    </svg>
+                </a>
+
+                <a href="mailto:gentlemaninsights1@gmail.com" class="hover:text-white transition-colors"
+                    aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="16" x="2" y="4" rx="2" />
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="pt-8 border-t border-blue-800 text-blue-300 text-sm">
+                © 2026 Abdiasiis Mohamed Ibrahim.
+            </div>
+        </div>
+        <a href="index.html#projects" class="text-blue-600 font-bold hover:underline mb-4 inline-block">← Back to All
+            Projects</a>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            lucide.createIcons();
+        });
+    </script>
+
+</body>
+
+</html>
